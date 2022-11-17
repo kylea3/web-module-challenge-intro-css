@@ -103,3 +103,27 @@ p {
     font-family: 'Roboto Mono';
 
 }
+
+#header{
+    height: 15rem;
+    width: 15rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.headerpic {
+    width: 45%;
+    height: auto;
+    display:inline-block;
+}
+
+.headertext {
+    width: 45%;
+    display: inline-block;
+    overflow-wrap: break-word;
+    height: auto; 
+    text-align: center;
+    align-items: center;
+}
