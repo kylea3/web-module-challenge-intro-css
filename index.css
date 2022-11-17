@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 10px;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -45,4 +45,61 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+nav {
+    margin: auto;
+    padding: 2rem;
+}
+
+nav a.plan{
+    background-color:#FF764E;
+    padding: .5rem;
+    margin: 1rem;
+    border: .2rem;
+    border-radius: .5rem;
+    height: 3rem;
+    width: 3rem;
+    color: white;
+    text-decoration: none;
+    inline-size: 7.5rem;
+    overflow-wrap: break-word;
+}
+
+nav a.learn{
+    background-color: #5ED3EB;
+    padding: .5rem;
+    margin: 1rem;
+    border: .2rem;
+    border-radius: .5rem;
+    height: 3rem;
+    color: white;
+    text-decoration: none;
+    inline-size: 7.5rem;
+    overflow-wrap: break-word;
+}
+
+
+nav a.get{
+    background-color: #FFCD69;
+    padding: .5rem;
+    margin: 1rem;
+    border: .2rem;
+    border-radius: .5rem;
+    height: 3rem;
+    color: white;
+    text-decoration: none;
+    inline-size: 7.5rem;
+    overflow-wrap: break-word;
+}
+
+
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Roboto Mono';
+
 }
