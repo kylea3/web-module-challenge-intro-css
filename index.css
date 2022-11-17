@@ -127,3 +127,27 @@ p {
     text-align: center;
     align-items: center;
 }
+
+.overview {
+    background-color: #DDB9A3;
+    width: 90%;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: white;
+    
+}
+
+.images {
+    height: 12rem;
+    width:auto;
+    margin: auto;
+    
+}
+
+.small {
+    width: 25%;
+    margin:auto;
+    text-align: center;
+    padding: 2rem;
+}
