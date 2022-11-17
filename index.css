@@ -50,6 +50,7 @@ table {
 nav {
     margin: auto;
     padding: 2rem;
+    text-align: center;
 }
 
 nav a.plan{
@@ -96,7 +97,7 @@ nav a.get{
 
 h1 {
     font-family: 'Chelsea Market';
-    font-size: 30px;
+    font-size: 2.6rem;
 }
 
 p {
@@ -117,6 +118,7 @@ p {
     width: 45%;
     height: auto;
     display:inline-block;
+    text-align: center;    
 }
 
 .headertext {
@@ -132,7 +134,7 @@ p {
     background-color: #DDB9A3;
     width: 90%;
     text-align: center;
-    margin: 2rem auto;
+    margin: 3rem auto 0rem auto;
     padding: 1rem;
     color: white;
     
@@ -147,7 +149,27 @@ p {
 
 .small {
     width: 25%;
-    margin:auto;
+    margin: auto;
     text-align: center;
-    padding: 2rem;
+    padding: .5rem;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+strong {
+    font-weight:bolder;
+}
+
+#footerimg {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.footerpic {
+    overflow: hidden;
+    height: 12rem;
+    margin: 4rem 0 0 0;
 }
